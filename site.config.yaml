@@ -1,0 +1,33 @@
+site:
+  slug: thehomewarden
+  domain: thehomewarden.com
+  brand_name: The Home Warden
+  tagline: Practical security gear picks — no contracts where you don't need them
+  description: Camera, doorbell, lock, and sensor buying guides for the practical homeowner and small landlord
+  niche: home security gear
+affiliate:
+  amazon_tracking_id: thehomewarden-20
+analytics:
+  ga4_measurement_id: G-XXXXXXXXXX
+persona:
+  config_path: config/personas/claire-dunmore.yaml
+visual:
+  primary_color: '#1F3251'
+  accent_color: '#D64045'
+  background_color: '#F6F6F4'
+  font_headings: Barlow
+  font_body: Inter
+  slots: 5
+images:
+  base_url: /images
+style_policy:
+  word_count:
+    min: 2000
+    max: 3500
+  dollar_figures:
+    allowed: true
+  buying_guide_heading:
+    style: Buying Guide
+  in_body_images:
+    policy: none
+    fixed_count: null

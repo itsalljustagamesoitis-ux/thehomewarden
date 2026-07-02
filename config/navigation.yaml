@@ -1,0 +1,52 @@
+categories:
+  - slug: home-security
+    label: Home Security
+    hubs:
+      - slug: security-cameras
+        label: Security Cameras
+        description: >-
+          Wireless and wired security cameras reviewed for outdoor durability, local storage options, and
+          rental-friendly installation — no professional mounting required.
+        articles: []
+      - slug: video-doorbells
+        label: Video Doorbells
+        description: >-
+          Video doorbell reviews covering battery-powered and wired options, subscription requirements, local storage,
+          and compatibility with existing doorbell wiring.
+        articles: []
+      - slug: smart-locks
+        label: Smart Locks & Access
+        description: >-
+          Smart lock and keyless entry reviews for rental properties — focusing on renter-friendly installs, guest
+          access management, and no-subscription operation.
+        articles: []
+      - slug: sensors-alarms
+        label: Sensors & Alarms
+        description: >-
+          DIY alarm systems, door and window sensors, and motion detectors reviewed for self-monitored setups that work
+          without a professional monitoring contract.
+        articles: []
+      - slug: cctv-systems
+        label: CCTV & NVR Systems
+        description: >-
+          Small-property CCTV systems and NVR setups reviewed for multi-unit landlords — local recording, PoE cameras
+          for stable connections, and license-plate coverage.
+        articles: []
+      - slug: security-lighting
+        label: Security Lighting
+        description: >-
+          Motion-activated and smart security lighting reviewed for deterrence, ease of installation, and performance
+          through Pacific Northwest weather conditions.
+        articles: []
+      - slug: smart-garage
+        label: Smart Garage
+        description: >-
+          Smart garage door controllers and openers reviewed for retrofit compatibility, remote access, and integration
+          with existing security setups.
+        articles: []
+      - slug: hubs-integration
+        label: Hubs & Integration
+        description: >-
+          Smart home security hubs and integration options reviewed for renters and landlords who want systems that work
+          without professional installation or monthly fees.
+        articles: []
