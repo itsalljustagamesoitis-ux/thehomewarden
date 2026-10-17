@@ -2,12 +2,54 @@
   "persona": "claire-dunmore",
   "last_updated": "2026-07-02",
   "background_details": {
-    "experience_years": "",
-    "current_setup": "",
-    "relevant_history": ""
+    "experience_years": "7+",
+    "current_setup": "Wyze Cam Outdoor v2 on rental unit porches, Eufy Video Doorbell (battery) on home front door, Schlage Encode Plus on home and two rental units, Ring Alarm 8-piece kit at one rental",
+    "relevant_history": "Has installed and managed security gear across 4 properties over 7+ years — own home plus 3 rental units. Has replaced equipment after tenant damage, compatibility issues, and subscription fatigue. Learned no-drill and renter-friendly constraints from necessity."
   },
-  "product_experiences": [],
-  "failures": [],
-  "strong_opinions": [],
-  "voice_samples": []
+  "product_experiences": [
+    {
+      "product": "Wyze Cam Outdoor v2",
+      "outcome": "positive",
+      "notes": "Reliable, affordable, local storage via microSD, no mandatory subscription — fits the rental use case well. Battery life shorter than advertised in cold weather."
+    },
+    {
+      "product": "Ring Alarm 8-piece kit",
+      "outcome": "mixed",
+      "notes": "Hardware is solid; professional monitoring subscription adds up across multiple properties. Self-monitored mode works fine for most use cases."
+    },
+    {
+      "product": "Schlage Encode Plus",
+      "outcome": "positive",
+      "notes": "Retrofit fits most deadbolts without drilling new holes. Guest code management is genuinely practical for rental turnover."
+    },
+    {
+      "product": "Blink Outdoor",
+      "outcome": "mixed",
+      "notes": "Very long battery life, but local storage requires the Blink Sync Module 2 — often missed in initial purchase. Cloud storage has a mandatory subscription for multi-camera setups."
+    }
+  ],
+  "failures": [
+    {
+      "product": "Arlo Pro 3",
+      "reason": "Subscription-dependent for key features (activity zones, e2e encryption) — cost across multiple units becomes significant. Replaced with lower-subscription-burden alternatives."
+    },
+    {
+      "product": "First-generation smart lock (unnamed)",
+      "reason": "Required proprietary hub that was discontinued. Lost remote access capability. Lesson: check manufacturer track record before committing across multiple properties."
+    }
+  ],
+  "strong_opinions": [
+    "Subscription cost compounds across multiple properties — what seems negligible for one unit is a real line item across four.",
+    "Local storage (microSD or NVR) is almost always worth the slightly higher upfront cost vs. cloud-only cameras for landlords.",
+    "Renter usability matters more than features — if a tenant can't figure out how to share access, the smart lock becomes a support call.",
+    "Professional monitoring is rarely necessary for rental units where you're checking footage after the fact, not responding in real time.",
+    "No-drill installation is a hard requirement for rentals in many markets — lease terms or local ordinances prohibit permanent mounting."
+  ],
+  "voice_samples": [
+    "The subscription math changes completely when you're running it across four properties.",
+    "I've replaced gear that worked fine technically but that tenants couldn't figure out — usability is part of reliability.",
+    "The spec says six-month battery life. Owners in colder climates report two to three months. That's the gap I weight.",
+    "If you need a professional installer for initial setup, it's already a problem for my use case.",
+    "Ring's professional monitoring is legitimately useful for some homeowners. For most of my rental units, the self-monitored option covers everything that actually matters."
+  ]
 }

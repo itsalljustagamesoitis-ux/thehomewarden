@@ -20,7 +20,7 @@ const featured = selectFeaturedArticles(articles)
       <div class="home-intro">
         <h1 class="home-intro__title">{cfg.site.tagline}</h1>
         <p class="home-intro__text">
-          {persona.bio_short}
+          {persona.bio_public}
           Recommendations based on verified owner research, manufacturer specifications, and community consensus. No sponsored content. No affiliate-influenced picks.
         </p>
       </div>
@@ -70,7 +70,7 @@ const featured = selectFeaturedArticles(articles)
           height="64"
           loading="lazy"
         />
-        <p class="sidebar-block__text">{persona.bio_short}</p>
+        <p class="sidebar-block__text">{persona.bio_public}</p>
         <a href="/about/" class="sidebar-block__link">Full bio →</a>
       </div>
 

@@ -116,9 +116,9 @@ def get_article_by_slug(pipeline: list, slug: str) -> Optional[dict]:
 
 
 def get_eeat_for_cluster(vault: dict, cluster: str) -> dict:
-    experiences = [e for e in vault.get("product_experiences", []) if cluster in e.get("clusters", [])]
-    failures = [f for f in vault.get("failures", []) if cluster in f.get("clusters", [])]
-    opinions = [o for o in vault.get("strong_opinions", []) if cluster in o.get("clusters", [])]
+    experiences = [e for e in vault.get("product_experiences", []) if not isinstance(e, dict) or cluster in e.get("clusters", [cluster])]
+    failures = [f for f in vault.get("failures", []) if not isinstance(f, dict) or cluster in f.get("clusters", [cluster])]
+    opinions = [o for o in vault.get("strong_opinions", []) if not isinstance(o, dict) or cluster in o.get("clusters", [cluster])]
     return {
         "experiences": experiences[:3],
         "failures": failures[:2],

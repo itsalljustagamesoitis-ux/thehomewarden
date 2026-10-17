@@ -13,7 +13,7 @@ IMAGE_DIR = ROOT / "public/images/articles"
 
 
 def make_article(article_id, hub, article_type="review"):
-    nav = load_navigation()
+    nav = load_navigation(ROOT)
     a = {
         "id": article_id,
         "slug": f"test-article-{article_id}",
@@ -56,7 +56,7 @@ class TestHeroImageCycling:
                 fm = build_frontmatter(article, products, "T", "D" * 20)
                 data = yaml.safe_load(fm.strip().lstrip("-").split("---")[0])
                 img = data["hero_image"]
-                n = int(img.split("-")[-1].replace(".jpg", ""))
+                n = int(img.split("-")[-1].rsplit(".", 1)[0])
                 assert 1 <= n <= 8, f"Image number {n} out of range for hub {hub_slug}"
 
     def test_image_file_exists_for_all_hubs(self, products, all_hub_slugs):
@@ -76,7 +76,7 @@ class TestHeroImageCycling:
         article = make_article(9, hub)
         fm = build_frontmatter(article, products, "T", "D" * 20)
         data = yaml.safe_load(fm.strip().lstrip("-").split("---")[0])
-        assert data["hero_image"].endswith("-1.jpg"), \
+        assert data["hero_image"].endswith("-1.webp"), \
             f"Article id 9 should wrap to image 1, got: {data['hero_image']}"
 
 

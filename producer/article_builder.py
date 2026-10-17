@@ -271,7 +271,7 @@ def generate_article(article: dict, products: dict, eeat: dict, persona: dict,
     prompt = build_prompt(article, products, eeat, persona)
 
     resp = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-sonnet-5",
         max_tokens=4096,
         system=SYSTEM,
         messages=[{"role": "user", "content": prompt}],
@@ -341,7 +341,7 @@ def build_frontmatter(article: dict, products: dict, title: str, description: st
     """Build YAML frontmatter for a content/articles/*.md file."""
     persona_slug = _PERSONA.get("slug", _PERSONA.get("name_used", "author").lower())
     hub_n = ((article.get("id", 1) - 1) % 8) + 1
-    hero_image = f"articles/{article.get('hub', 'general')}-{hub_n}.jpg"
+    hero_image = f"articles/{article.get('hub', 'general')}-{hub_n}.webp"
 
     product_keys = article.get("products", [])
     products_yaml = ""

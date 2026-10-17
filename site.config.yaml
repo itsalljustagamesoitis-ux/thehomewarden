@@ -8,7 +8,7 @@ site:
 affiliate:
   amazon_tracking_id: thehomewarden-20
 analytics:
-  ga4_measurement_id: G-XXXXXXXXXX
+  ga4_measurement_id: G-14WP6TRTH1
 persona:
   config_path: config/personas/claire-dunmore.yaml
 visual:
@@ -18,6 +18,11 @@ visual:
   font_headings: Barlow
   font_body: Inter
   slots: 5
+  logo_paths:
+    header_svg: /images/brand/logo-header.svg
+    header_png: /images/brand/logo-header.svg
+    footer_svg: /images/brand/logo-footer.svg
+    social_square: /images/brand/logo-mark.svg
 images:
   base_url: /images
 style_policy:
