@@ -9,6 +9,7 @@ affiliate:
   amazon_tracking_id: thehomewarden-20
 analytics:
   ga4_measurement_id: G-14WP6TRTH1
+  consent_default: denied   # preserves the pre-bump live behaviour (platform default is now 'granted')
 persona:
   config_path: config/personas/claire-dunmore.yaml
 visual:
