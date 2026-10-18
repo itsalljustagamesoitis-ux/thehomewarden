@@ -37,3 +37,7 @@ style_policy:
   in_body_images:
     policy: none
     fixed_count: null
+validators:
+  duplicate_card_rationale: warn
+  blank_comparison_cell: warn
+  keyword_variant_collision: warn
